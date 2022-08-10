@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(148, 144, 144);
+}
+.portfolio-content {
+  display: grid;
+  grid-template-columns: 20% 50%;
+  align-content: center;
+  justify-content: center;
+  padding-top: 35px;
+}
+.my-image {
+  border: 6px solid white;
+  border-radius: 50%;
+  height: 205px;
+  width: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+.left-content {
+  background-color: black;
+  color: aliceblue;
+}
+.right-content {
+  background-color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: rgb(155, 153, 153);
+  cursor: pointer;
+}
+a:hover {
+  color: blue;
+  font-size: 20px;
+  transition: all;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 7px;
+}
+.name {
+  text-align: center;
+  color: whitesmoke;
+  padding: 3px;
+  margin: 3px;
+  text-transform: uppercase;
+  font-size: 33px;
+}
+.designation {
+  color: goldenrod;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  font-size: 24px;
+}
+.info {
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#phone,
+#mail,
+#github,
+#linkedin,
+#twitter,
+#facebook,
+#location {
+  font-size: 18px;
+  margin: 3px;
+  padding: 2px;
+  color: rgb(181, 187, 187);
+}
+.skills {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#skill1,
+#skill2,
+#skill3,
+#skill4,
+#skill5,
+#skill6,
+#skill7,
+#skill8 {
+  font-size: 18px;
+  margin: 3px;
+  padding: 2px;
+  color: rgb(181, 187, 187);
+}
+#me,
+#experience,
+#education {
+  color: rgb(1, 1, 49);
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.about {
+  margin-left: 35px;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  line-height: 2rem;
+}
+.exp,
+.edu {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.left1,
+.left2 {
+  margin-left: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.right1,
+.right2 {
+  margin-left: 160px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tpc1 {
+  border-left: 3px solid grey;
+  line-height: 1.5rem;
+  font-size: 16px;
+  word-spacing: 1px;
+  margin-left: 3px;
+  padding: 3px;
+  margin-top: 2px;
+  margin-right: 5px;
+  font-weight: 550;
+}
+.tpc {
+  color: rgba(8, 3, 73, 0.849);
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  padding: 2px;
+  margin: 2px;
+}
+.time1 {
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.position1 {
+  color: rgb(0, 89, 255);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.schooling {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.detail1,
+.detail2,
+.detail3 {
+  border-left: 3px solid grey;
+  line-height: 1.5rem;
+  font-size: 16px;
+  word-spacing: 1px;
+  margin-left: 4px;
+  padding: 3px;
+  margin-top: 2px;
+  margin-right: 4px;
+  font-weight: 550;
+}
+.clg,
+.iscl,
+.hscl {
+  color: rgba(8, 3, 73, 0.849);
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  padding: 2px;
+  margin: 2px;
+}
+.time2,
+.time3,
+.time4 {
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.branch2,
+.branch3,
+.branch4 {
+  color: rgb(0, 89, 255);
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 2px;
+}
