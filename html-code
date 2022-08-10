@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image" href="fav1.jpg" />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <script
+      src="https://kit.fontawesome.com/7aa4f3b289.js"
+      crossorigin="anonymous"
+    ></script>
+    <div class="portfolio-content">
+      <div class="left-content">
+        <div class="intro">
+          <img class="my-image" src="mydp.JPG" alt="Profile Image" />
+          <h2 class="name">Vaibhav Gupta</h2>
+          <h3 class="designation">Front End Developer</h3>
+          <hr size="2" solid black />
+        </div>
+        <div class="contact-info">
+          <h2 class="info">Contact Info</h2>
+          <ul>
+            <li id="phone"><i class="fa-solid fa-phone"></i>+919721201954</li>
+            <li id="mail">
+              <i class="fa-solid fa-envelope"></i
+              ><a
+                class="email"
+                href="mailto:mrpriyanshu0901@gmail.com"
+                target="_blank"
+                >Send Email</a
+              >
+            </li>
+            <li id="github">
+              <i class="fa-brands fa-github"></i
+              ><a
+                class="git"
+                href="https://github.com/mrpriyanshu09"
+                target="_blank"
+                >Github Profile</a
+              >
+            </li>
+            <li id="linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+              <a
+                class="linked-in"
+                href="https://www.linkedin.com/in/vaibhav-gupta-45a340225"
+                target="_blank"
+                >Linked In Profile</a
+              >
+            </li>
+
+            <li id="twitter">
+              <i class="fa-brands fa-twitter"></i>
+              <a
+                class="tweet"
+                href="https://twitter.com/mrpriyanshu09"
+                target="_blank"
+                >Twitter Profile</a
+              >
+            </li>
+
+            <li id="facebook">
+              <i class="fa-brands fa-facebook"></i>
+              <a
+                class="fbook"
+                href="https://www.facebook.com/mrpriyanshu09"
+                target="_blank"
+                >Facebook Profile</a
+              >
+            </li>
+            <li id="location">
+              <i class="fa-solid fa-location-dot"></i>Kanpur UP
+            </li>
+          </ul>
+          <hr size="2" solid black />
+        </div>
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li id="skill1">HTML5</li>
+            <li id="skill2">CSS3</li>
+            <li id="skill3">JavaScript</li>
+            <li id="skill4">Embedded System</li>
+            <li id="skill5">C / C++</li>
+            <li id="skill6">IoT</li>
+            <li id="skill7">Microsoft Office</li>
+            <li id="skill8">Video Editing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-content">
+        <h2 id="me">About me</h2>
+        <p class="about">
+          I am a hardworking and ambitious individual with a great passion for
+          the front end development field.I am currently in my second year of
+          studying Electronics and Communication Engineering at UIET Panjab
+          University Chandigarh. I have excellent communication skills,enabling
+          me to effectively communicate with a wide range of people.I am seeing
+          a part time position in the industry in whch I can put into practice
+          my knowledge and experience, ultimately benefiting the operations of
+          the organisation that I work for.
+        </p>
+        <h2 id="experience">Experience</h2>
+        <div class="exp">
+          <div class="left1">
+            <h3 class="tpc">
+              Training and Placement Cell
+              <br />UIET Panjab University Chandigarh
+            </h3>
+            <p class="time1">May 2022 - Present</p>
+          </div>
+          <div class="right1">
+            <h3 class="position1">Team Member</h3>
+            <p class="tpc1">
+              Reached out to various companies to invite them to recruit from
+              our campus.
+            </p>
+          </div>
+        </div>
+        <div class="schooling">
+          <div class="left2">
+            <h3 class="tpc">
+              Enterpreneurship Develpment Cell
+              <br />UIET Panjab University Chandigarh
+            </h3>
+            <p class="time1">Dec 2021 - Present</p>
+          </div>
+          <div class="right2">
+            <h3 class="position1">Associate Member</h3>
+            <p class="tpc1">
+              Gets corporate exposure while studying and develops a spirit of
+              Enterpreneurship.
+            </p>
+          </div>
+        </div>
+        <h2 id="education">Education</h2>
+        <div class="edu">
+          <div class="left2">
+            <h3 class="clg">
+              UIET Panjab University <br />
+              Chandigarh
+            </h3>
+            <p class="time2">Nov 2021 - Present</p>
+          </div>
+          <div class="right2">
+            <h3 class="branch2">Bachelor of Engineering</h3>
+            <p class="detail1">
+              Electronics and Communication Engineering <br />Sophomore
+            </p>
+          </div>
+          <div class="left2">
+            <h3 class="iscl">
+              MVM Sr. Sec. School <br />
+              Fatehpur UP
+            </h3>
+            <p class="time3">Apr 2018 - Mar 2020</p>
+          </div>
+          <div class="right2">
+            <h3 class="branch3">Intermediate</h3>
+            <p class="detail2">Science (Math) Stream<br />Grade - 93%</p>
+          </div>
+          <div class="left2">
+            <h3 class="hscl">
+              NHS ENG MED School <br />
+              Fatehpur
+            </h3>
+            <p class="time4">Apr 2016 - Mar 2018</p>
+          </div>
+          <div class="right2">
+            <h3 class="branch4">High School</h3>
+            <p class="detail3">Science Stream <br />Grade - 85%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
